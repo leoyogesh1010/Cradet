@@ -10,8 +10,7 @@ body{
 .container{
     font-family: "Montserrat", sans-serif;
     background-color: #3acb6a;
-    margin : 0px;
-    border-bottom : 1px solid #75df9c;
+    border-bottom : 2px solid #75df9c;
 }
 
 #head1{
@@ -95,4 +94,8 @@ img{
     border: 1px solid white;
     width: 80px;
     height: 40px;
+}
+
+.buttons{
+    display: none;
 }
