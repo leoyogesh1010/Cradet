@@ -9,9 +9,6 @@ body{
 }
 .container{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     background-color: #3acb6a;
     margin : 0px;
     border-bottom : 1px solid #75df9c;
