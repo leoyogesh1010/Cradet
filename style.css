@@ -1,101 +1,178 @@
 *{
-    margin: 0%;
-}
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
 
 body{
-    background-color: #3acb6a;
-}
-.container{
-    font-family: "Montserrat", sans-serif;
-    background-color: #3acb6a;
-    border-bottom : 2px solid #75df9c;
+    background-color: #3BD16F;
 }
 
-#head1{
-    margin-left: 70px;
-    margin-top: 15px;
-    display: inline-block;
-    font-weight: 800;
-    text-shadow: black;
-    
+header{
+    height: 60px;
+    border-bottom: 3px solid #74E39A;
+    position: sticky;
+    margin: 0px;
 }
 
-a{
+.heads{
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 12px;
+}
+
+.head1{
     text-decoration: none;
-    color: #016b1f;
-    font-weight: 600;
-    word-spacing: normal;
-    padding: 20px;
-    position: relative;
-    left: 1150px;
-    bottom: 26px;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
 }
 
-.containe{
-    height: 20px;
+.head2{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 28px;
 }
 
-#net{
-    display: inline-block;
-    color: azure;
+nav a{
+    text-decoration: none;
+    color: #00691F;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+.nav{
+    display: flex;
+    position: absolute;
+    left: 1000px;
+}
+
+.circles{
+display: inline-block;
 }
 
 .circle1{
     width: 500px;
     height: 500px;
-    background-color: #74e59b;
-    position: relative;
-    left: 160px;
-    top: 90px;
-    border-radius: 500px;
-    display: inline-block;
+    background-color: #74E39A;
+    position: absolute;
+    left: 140px;
+    top: 160px;
+    border-radius: 100%;
+    box-shadow: 0px 6px 50px 0px black;
 }
 
 .circle2{
     width: 450px;
     height: 450px;
-    background-color: #d9d8d8;
+    background-color: #D9D9D9;
     position: absolute;
-    left: 185px;
-    top: 195px;
-    border-radius: 500px;
-    display: inline-block;
-
+    left: 165px;
+    top: 185px;
+    border-radius: 100%;
 }
 
 img{
-    height: 400px;
-    width: 400px;
+    width: 380px;
+    height: 380px;
     position: absolute;
-    left: 210px;
+    left: 200px;
     top: 220px;
 }
 
-
-.big{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-weight: 900;
-    font-size: 150%;
-    position: absolute;
-    left: 760px;
-    top: 240px;
-    color: white;
+.heads2{
+    display: inline-block;
+    text-shadow: 2px black;
+    box-shadow: 1px 1px 20px;
 }
 
-#head2{
-    margin-left: 40px;
-    margin-top: 10px;
+#h1{
+    display: inline-block;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
+    position: absolute;
+    left: 700px;
+    top: 230px;
+}
 
+#h2{
+    display: inline-block;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
+    position: absolute;
+    left: 780px;
+    top: 300px;
 }
 
 #b1{
-    border: 1px solid white;
-    width: 80px;
-    height: 40px;
+    height: 56px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: #000000;
+    color: white;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    left: 830px;
+    top: 400px;
+    box-shadow: 0px 8px 50px 0px black;
 }
 
-.buttons{
-    display: none;
+#b2{
+    height: 56px;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    left: 1060px;
+    top: 400px;
+    box-shadow: 0px 8px 50px 0px black;
+}
+
+#b3{
+    height: 56px;
+    width: 400px;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    left: 846px;
+    top: 480px;
+    box-shadow: 0px 8px 50px 0px black;
+}
+
+#Scroll{
+    text-decoration: none;
+    color: #00691F;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px 40px;
+    position: absolute;
+    left: 680px;
+    top: 680px;
+}
+
+#chevron1{
+    height: 20px;
+    width: 20px;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 744px;
+    top: 720px;
 }
