@@ -191,7 +191,7 @@ img{
     background-color: #cfcfcf;
 }
 
-.butts:hover{
+.butts::after{
     cursor: pointer;
     background-color: #282828;
 }
