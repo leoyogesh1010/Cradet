@@ -175,3 +175,18 @@ img{
     left: 744px;
     top: 720px;
 }
+
+#b1:hover{
+    cursor: pointer;
+    background-color: #282828;
+}
+
+#b2:hover{
+    cursor: pointer;
+    background-color: #282828;
+}
+
+#b3:hover{
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
